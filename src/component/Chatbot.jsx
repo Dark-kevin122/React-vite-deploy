@@ -5,7 +5,7 @@ import './Chatbot.css'
 import Chatboticon from './Chatboticon'
 
 // 👉 Change this to your actual backend endpoint.
-const API_URL = "https://backend-xbir.onrender.com/api/chat";
+const API_URL = "https://solve-backend.onrender.com/api/chat";
 
 const Chatpopuscreen = () => {
   const [chathistory, sethistory] = useState([]);
