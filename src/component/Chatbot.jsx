@@ -5,7 +5,7 @@ import './Chatbot.css'
 import Chatboticon from './Chatboticon'
 
 // 👉 Change this to your actual backend endpoint.
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "http://localhost:10000/api/chat";
 
 const Chatpopuscreen = () => {
   const [chathistory, sethistory] = useState([]);
